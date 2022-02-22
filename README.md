@@ -15,8 +15,6 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-from http.server import HTTPServer, BaseHTTPRequestHandler
-content = """
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +38,7 @@ content = """
 <h3>JavaScript is a cross-platform, object-oriented scripting language for creating dynamic web pages. There are also complex server-side JavaScript versions, such as Node.js, that allow you to add more functionality to a website than simply downloading files (such as realtime collaboration between multiple computers).</h3>
 </body>
 </html>
- """
+
 
 ~~~python
 
